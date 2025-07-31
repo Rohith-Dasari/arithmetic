@@ -2,7 +2,12 @@ package arithmetic
 
 import "fmt"
 
-func add(x, y int) int {
-	fmt.Print("the answer is: ")
+func Add(x, y int) int {
+	fmt.Print(" x+y: ")
 	return x + y
+}
+
+func Subtract(x, y int) int {
+	fmt.Print("x-y: ")
+	return x - y
 }
